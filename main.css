@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/*
+body{
+    background-image:url(background.jpg);
+    background-size:50%;
+*/
+}
+
+/*bootstrap bg image
+html { 
+    background: url(6.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    */
+
+  }
+
+.welcome{
+    box-shadow: 5px 5px 5px 5px white;
+}
+
+
+/*
+#search{
+    text-align:center;
+}
+#click{
+    text-align:center;
+}
+*/
+
+
+#wrapper{
+    background-color:rgb(212, 84, 84);
+    text-align: center;
+}
+li{
+    
+    display:inline-block;
+}
+#nav{
+    text-align: right;
+}
+#main{
+    display: flex;
+    background-color: rgb(121, 121, 223);
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    margin: 20px 10px 16px 10px;
+    transition: all 1s;
+    border-radius: 25px;
+}
+img:hover  {
+    transform: scale(1.2) rotate(0deg) ;
+}
+#search{
+    transition: all 1s;
+}
+#search:hover{
+    transform: scale(3);
+    animation: ;
+}
+#wrapper:hover {
+    from{background-color: red;}
+    to{background-color: blue;}
+}
+
+
+
+}
+
+/*
+.col{
+    background-color: grey;
+    border: 2px solid black;
+}
+*/
+img{
+    text-align: center;
+}
