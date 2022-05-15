@@ -12,11 +12,12 @@
 <body>
 
 
-	<div class="container>
-		<div class="row">
-			<div class="col col-sm-6 col-md-12 col-lg-12">
-				<!--BOOTSTRAP NAVBAR-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container-fluid">
+			<div class="row">
+					<div class="col col-sm-12 col-md-12 col-lg-12"> 
+
+										<!--BOOTSTRAP NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,62 +54,80 @@
   </div>
 </nav>
 
-			</div>
-			<div class="col col-sm-3 col-md-6 col-lg-12">
-				<hr><hr>
+
+					</div>
+					<div class="col col-sm-12 col-md-12 col-lg-12">
 
 
-	<!-- nav bar -->
+									<!-- nav bar -->
 	<div>
-	<select>
-		<option value=Menu>Menu</option>
-		<option value=Home>Home</option>
-		<option value="About">About</option>
-		<option value="Contact">Contact</option>
-		<option value="Login">Login</option>
-	</select>
-	</div>
+		<select>
+			<option value=Menu>Menu</option>
+			<option value=Home>Home</option>
+			<option value="About">About</option>
+			<option value="Contact">Contact</option>
+			<option value="Login">Login</option>
+		</select>
+		</div>
+	
+		<div id="nav">
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>Contact</li>
+			<li>Login</li>
+		</ul>
+		</div>
 
-	<div id="nav">
-	<ul>
-		<li>Home</li>
-		<li>About</li>
-		<li>Contact</li>
-		<li>Login</li>
-	</ul>
-	</div>
-	<!-- header -->
+
+					</div>
+					<div class="col col-sm-12 col-md-12 col-lg-12">	
+									<!-- header -->
 	<header>
-	<div id="wrapper">
-		<hr><hr>	
-			<h1 class="welcome" style="background-color: rgb(6, 59, 6); color:white;">WELCOME TO MY PORTAL</h1>
-		<hr><hr><br>
+		<div id="wrapper">
+			<hr><hr>	
+				<h1 class="welcome" style="background-color: rgb(6, 59, 6); color:white;">WELCOME TO MY PORTAL</h1>
+			<hr><hr><br>
+				
+	
+	
+	
+	
+	
+			
+				<div id="search">
+				<input type="text" placeholder="searching for?"> 
+				<input type="submit" value="search">
+			</div>
+				<br>
+			<div id="click">
+				<a href="freelance.html">
+					<img src="Freelance.png" height="150" width="150">
+				</a>
+				<a href="tech.html"> 
+					<img src="T.png" height="150" width="150">
+				</a>
+			</div>
+		</div>
+	</header>
+					</div>
+			</div>
+		</div>
+		<hr>
+
+
+
 			
 
-
-
-
-
 		
-			<div id="search">
-			<input type="text" placeholder="searching for?"> 
-			<input type="submit" value="search">
-		</div>
-			<br>
-		<div id="click">
-			<a href="freelance.html">
-				<img src="Freelance.png" height="150" width="150">
-			</a>
-			<a href="tech.html"> 
-				<img src="T.png" height="150" width="150">
-			</a>
-		</div>
-	</div>
-</header>
 
-			</div>
-			<div class="col col-sm-3 col-md-6 col-lg-12">
-				<!-- main_section --><hr><hr>
+	
+
+
+			
+		
+				<!-- main_section -->
+			
 <main id="main">
 	<div  class="text-center">
 		<img src="2.jpg">
@@ -136,6 +155,24 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+	(function () {
+			var options = {
+					facebook: "116153986402485", // Facebook page ID
+					whatsapp: "+2349094234529", // WhatsApp number
+					call_to_action: "Message me", // Call to action
+					button_color: "#666666", // Color of button
+					position: "right", // Position may be 'right' or 'left'
+					order: "facebook,whatsapp", // Order of buttons
+					pre_filled_message: "Hello,", // WhatsApp pre-filled message
+			};
+			var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+			var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+			s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+			var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+	})();
+</script>
+<!-- /GetButton.io widget -->
 </body>
 </html>

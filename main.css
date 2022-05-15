@@ -67,7 +67,7 @@ img:hover  {
     transition: all 1s;
 }
 #search:hover{
-    transform: scale(3);
+    transform: scale(1.17);
     animation: ;
 }
 #wrapper:hover {
@@ -79,12 +79,12 @@ img:hover  {
 
 }
 
-/*
+
 .col{
-    background-color: grey;
-    border: 2px solid black;
+    background-color: rgb(10, 129, 16);
+    border: 200px solid rgb(231, 4, 4);
 }
-*/
+
 img{
     text-align: center;
 }
